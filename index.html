@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora Hidráulica</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js CDN -->
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Ecuaciones Hidráulicas</h1>
+
+    <label for="operacion">Selecciona la operación:</label>
+    <select id="operacion">
+      <option value="">-- Selecciona una opción --</option>
+      <option value="bernoulli">Ecuación de Bernoulli</option>
+      <option value="manning">Ecuación de Manning (Canales)</option>
+      <option value="hazen">Ecuación de Hazen-Williams</option>
+      <option value="euler">Carga auxiliar crítica de Euler</option>
+      <option value="curva">Ecuación de la Curva Masa</option>
+      <option value="talud">Volumen de un Talud</option>
+    </select>
+
+    <div id="formulario"></div>
+    <div id="resultado"></div>
+    <canvas id="grafica"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

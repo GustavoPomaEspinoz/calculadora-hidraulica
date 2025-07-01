@@ -1,0 +1,89 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 750px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+label, select, input {
+  display: block;
+  width: 100%;
+  margin: 12px 0;
+  font-size: 16px;
+}
+
+select, input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #bdc3c7;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+select:focus, input:focus {
+  border-color: #3498db;
+}
+
+button {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+#resultado {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+  color: #27ae60;
+  text-align: center;
+}
+
+canvas {
+  display: block;
+  margin: 30px auto 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 90%;      /* Usa 90% del ancho del contenedor */
+  max-width: 1000px; /* Limita a 1000px máximo */
+  height: 500px;   /* Alto fijo */
+}
+
+.descripcion {
+  background: #f9f9f9;
+  padding: 10px;
+  border-left: 4px solid #3498db;
+  margin-bottom: 10px;
+}
+
+.formula {
+  background: #f1f1f1;
+  padding: 8px;
+  font-family: monospace;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
