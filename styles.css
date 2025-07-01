@@ -68,9 +68,9 @@ canvas {
   margin: 30px auto 0;
   border: 1px solid #ccc;
   border-radius: 6px;
-  width: 90%;      /* Usa 90% del ancho del contenedor */
-  max-width: 1000px; /* Limita a 1000px máximo */
-  height: 500px;   /* Alto fijo */
+  width: 90%;     
+  max-width: 1000px; 
+  height: 500px;   
 }
 
 .descripcion {
